@@ -4,11 +4,10 @@
   "description": "Codex-assisted Fusion 360 modeling: arbitrary Python execution, design introspection, expanded shape set, and STL/STEP/IGES/F3D export through a local Fusion API bridge.",
   "author": {
     "name": "shota",
-    "email": "",
-    "url": ""
+    "url": "https://github.com/Shotarobe"
   },
-  "homepage": "",
-  "repository": "",
+  "homepage": "https://github.com/Shotarobe/fusion-360",
+  "repository": "https://github.com/Shotarobe/fusion-360",
   "license": "MIT",
   "keywords": [
     "fusion-360",
@@ -31,7 +30,7 @@
       "Write",
       "Local Automation"
     ],
-    "websiteURL": "",
+    "websiteURL": "https://github.com/Shotarobe/fusion-360",
     "privacyPolicyURL": "",
     "termsOfServiceURL": "",
     "defaultPrompt": [
