@@ -1,0 +1,17 @@
+{
+  "name": "shotarobe-fusion-360",
+  "owner": {
+    "name": "shota"
+  },
+  "metadata": {
+    "description": "Codex / Claude Code plugins for driving Autodesk Fusion 360 via a local Python API bridge."
+  },
+  "plugins": [
+    {
+      "name": "fusion-360",
+      "source": "./plugins/fusion-360",
+      "description": "Drive Fusion 360 from Codex via a local Python API bridge. Includes execute_script, read_design, expanded shape set, and STL/STEP/IGES/F3D export.",
+      "category": "productivity"
+    }
+  ]
+}

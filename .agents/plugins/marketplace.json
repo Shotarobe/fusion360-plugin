@@ -1,0 +1,21 @@
+{
+  "name": "shotarobe-fusion-360",
+  "interface": {
+    "displayName": "Shotarobe Fusion 360 Plugins",
+    "shortDescription": "Codex plugins for driving Autodesk Fusion 360 via a local Python API bridge."
+  },
+  "plugins": [
+    {
+      "name": "fusion-360",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fusion-360"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
