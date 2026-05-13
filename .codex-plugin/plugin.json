@@ -1,0 +1,48 @@
+{
+  "name": "fusion-360",
+  "version": "0.3.0",
+  "description": "Codex-assisted Fusion 360 modeling: arbitrary Python execution, design introspection, expanded shape set, and STL/STEP/IGES/F3D export through a local Fusion API bridge.",
+  "author": {
+    "name": "shota",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT",
+  "keywords": [
+    "fusion-360",
+    "cad",
+    "modeling",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "hooks": "",
+  "mcpServers": "",
+  "apps": "",
+  "interface": {
+    "displayName": "Fusion 360",
+    "shortDescription": "Drive Fusion 360 from Codex via a local Python API bridge.",
+    "longDescription": "Codex-assisted Fusion 360 modeling. Includes 25+ registered operations (primitives, sketch features, fillets/chamfers/shells, parameters, exports) plus execute_script for arbitrary Fusion Python and read_design for state introspection. Runs through a single CodexFusionBridge Add-In with no GUI clicking.",
+    "developerName": "shota",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write",
+      "Local Automation"
+    ],
+    "websiteURL": "",
+    "privacyPolicyURL": "",
+    "termsOfServiceURL": "",
+    "defaultPrompt": [
+      "Fusion 360で幅80mm、奥行き40mm、高さ20mmの箱を作って、上面に直径30mmの円柱を載せてください。",
+      "Fusion 360の現在のデザインのボディ、スケッチ、ユーザーパラメータを一覧してください。",
+      "Fusion 360でカスタムなフィレットを掛けるPythonスクリプトを生成して実行してください。",
+      "Fusion 360のアクティブボディを高解像度のSTLとしてエクスポートしてください。"
+    ],
+    "brandColor": "#F28C28",
+    "composerIcon": "",
+    "logo": "",
+    "screenshots": []
+  }
+}
