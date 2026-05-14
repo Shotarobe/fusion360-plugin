@@ -1,6 +1,6 @@
 ---
 name: fusion-360-automation
-description: Use when the user asks Codex to control Autodesk Fusion 360, create or modify CAD geometry, query the active design, generate Fusion 360 Python API scripts, export STL/STEP/IGES/F3D, or install the local Fusion bridge Add-In.
+description: Use when the user asks the assistant to control Autodesk Fusion 360, create or modify CAD geometry, query the active design, generate Fusion 360 Python API scripts, export STL/STEP/IGES/F3D, or install the local Fusion bridge Add-In.
 ---
 
 # Fusion 360 Automation
@@ -10,7 +10,7 @@ local file-based bridge.
 
 ## Architecture
 
-1. Codex writes a command JSON to `~/.codex/fusion360/command.json`.
+1. The assistant writes a command JSON to `~/.codex/fusion360/command.json`.
 2. The `CodexFusionBridge` Add-In (installed by `scripts/install_bridge.py`)
    polls that file every 0.25s and fires a custom UI-thread event.
 3. The Add-In dispatches to one of the registered operations and runs the
